@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>FORMS</h1>
+        <form action="./url.html">
+            <p>
+            <label for="Name">Name</label>
+            <input type="text" id="Name" placeholder="name" name="Name" required>
+            </p>
+            <label for="Email">Email Address</label>
+            <input type="email" id="Email" placeholder="email" name="Email" required>
+            <p>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" placeholder="password" name="Password" required>
+            </p>
+            <p>Language</p>
+            <input type="radio" name="language" id="Language1" value="React"> 
+            <label for="Language1">React</label> <br>
+            <input type="radio" name="language" id="Language2" value="angular"> 
+            <label for="Language2">Angular</label> <br>
+            <input type="radio" name="language" id="Language3" value="vue">
+            <label for="Language3">Vue</label>
+            <p>Course</p>  
+            <input type="checkbox" name="Course1" id="Course1" value="MERN" required>
+            <label for="Course1">MERN</label> <br>
+            <input type="checkbox" name="Course2" id="Course2" value="MEAN">
+            <label for="Course2">MEAN</label> <br>
+            <input type="checkbox" name="Course3" id="Course3" value="MEVN">
+            <label for="Course3">MEVN</label>
+            <p>Field: <br>
+                <select>
+                    <option value="0">Front End</option>
+                    <option value="1">Back End</option>
+                    <option value="2">Full Stack</option>
+                </select>
+            </p>
+            <p><textarea name="Description" cols="30" rows="10"></textarea></p>
+            <label for="Phonenumber">Phone Number</label>  <input type="number" id="Phonenumber" required>
+            <input type="submit" value="submit">
+        </form>
+        <h1>TABLES</h1>
+        <a href="./tables.html">Click Here</a>
+</body>
+</html>
